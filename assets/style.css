@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em;
+    font-size: 16px;
+    overflow: hidden;
+    display: block;
+    flex-direction: row;
+    position: relative;
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.hero {
+    height: 15vh;
+    width: 100%;
+    background-image: linear-gradient(to right, black, grey);
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 4%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 45px;
+
+}
+
+.logo span {
+    color: #f9004d;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-bottom: solid 2px white;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+  
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .6s;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 700px;
+    padding-top: 10px;
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    justify-content: right;
+    position:fixed;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 75%;
+}
+
+#left h2 {
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.body p {
+    border-left: dashed .5px black;
+    padding-left: 10px;
+}
+
+
